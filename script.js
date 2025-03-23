@@ -5,7 +5,7 @@ function createElement(id){
 	})
 }
 
-const promises = [createElement(1), createElement(2), createElement(3)]
+const promises =  [createElement(1), createElement(2), createElement(3)]
 
 Promise.all(promises).then(results =>{
 	const output = document.getElementById("output");
